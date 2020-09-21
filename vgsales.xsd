@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace = "localfile" xmlns = "localfile" elementFormDefault = "qualified">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="Rank"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:string" name="Platform"/>
+              <xs:element type="xs:string" name="Year"/>
+              <xs:element type="xs:string" name="Genre"/>
+              <xs:element type="xs:string" name="Publisher"/>
+              <xs:element type="xs:float" name="NA_Sales"/>
+              <xs:element type="xs:float" name="EU_Sales"/>
+              <xs:element type="xs:float" name="JP_Sales"/>
+              <xs:element type="xs:float" name="Other_Sales"/>
+              <xs:element type="xs:float" name="Global_Sales"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,56 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (row)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED 'localfile'
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:schemaLocation CDATA #REQUIRED>
+
+<!ELEMENT row (Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,
+               EU_Sales,JP_Sales,Other_Sales,Global_Sales)>
+<!ATTLIST row
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Rank (#PCDATA)>
+<!ATTLIST Rank
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Platform (#PCDATA)>
+<!ATTLIST Platform
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Year (#PCDATA)>
+<!ATTLIST Year
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Genre (#PCDATA)>
+<!ATTLIST Genre
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Publisher (#PCDATA)>
+<!ATTLIST Publisher
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT NA_Sales (#PCDATA)>
+<!ATTLIST NA_Sales
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT EU_Sales (#PCDATA)>
+<!ATTLIST EU_Sales
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT JP_Sales (#PCDATA)>
+<!ATTLIST JP_Sales
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Other_Sales (#PCDATA)>
+<!ATTLIST Other_Sales
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Global_Sales (#PCDATA)>
+<!ATTLIST Global_Sales
+  xmlns CDATA #FIXED 'localfile'>
